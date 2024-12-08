@@ -56,6 +56,27 @@ This setup will require you to disable Steam Guard on your alt accounts (to logi
 
 This option is also quite a bit more complicated. 
 
+Quick Setup:
+1. Launch Sandboxie, and make a new box named Account1.
+2. Download the 3 files linked in this GitHub from the releases page - or just click here.
+3. Create a new folder anywhere on your pc, and drag the files you downloaded into the folder.
+4. Right click > Properties on the 'Account 1 - Login Info' file. It should be a shortcut to steam.
+   - Make sure the filepath in the target field points to your steam.exe. If it isn't, find steam.exe, then Shift+Right click > Copy as path, and paste it at the start.
+   - Edit the USERNAME and PASSWORD to your alt accounts steam username and password.
+   - For the login above to work, you must disable Steam Guard on your alt account! Steam > Settings > Security > Manage Steam Guard. Disable it entirely.
+5. Right click > Edit the 'Account 1 - Launch Steam' file.
+   - Make sure the filepath in the first field is correct. You need to link your sandboxie start.exe file.
+   - The second field is the name of the Sandbox you made earlier - Account1. Change it if needed.
+   - For the third field, Shift+Right click your Login Info file you just setup, and Copy as path. Replace the existing filepath in the third field with this.
+6. Now Right Click > Edit the 'Account 1 - Launch Foxhole' file.
+   - The first field should be a filepath to your sandboxie start.exe, just like before. Change if it's wrong.
+   - The second field is again your sandboxie box name. Change if needed.
+   - The third field needs to link to the War-Win64-Shipping.exe file. Right click Foxhole on steam > Browse local files. Go into War > Binaries > Win64. Then Shift+Right click > Copy as path the exe file. Paste this into the third field of the file. 
+7. Make sure your Foxhole AND steam client are up to date! Click Steam (top left) > Check for Steam Client Updates and install them. If sandboxie ever fails to open steam, this is almost certainly why! You will need to delete the contents of your sandbox (Right click box > delete contents) every time there is an update.
+8. You can now try launching steam using the Launch Steam file. It should open in silent mode - so check your system tray to see if it launched. Or, just click the Launch Foxhole file after a bit.
+9. Not working? Check the troubleshooting below, and be sure you followed every step here. 
+
+
 # Troubleshooting
 
 # Troubleshooting - Sandboxie
