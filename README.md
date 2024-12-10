@@ -1,4 +1,3 @@
-# Foxhole-MultiBoxing-Guide
 # Why Multibox?
 Having multiple accounts in Foxhole can enable you to far more efficiently carry out certain tasks, and simply make life easier. Some examples are below.
 * Using alts to drive a train, while you hit switches ahead of it. This makes trains far more enjoyable and safer to drive.
