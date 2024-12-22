@@ -74,6 +74,9 @@ Quick Setup:
 8. You can now try launching steam using the Launch Steam file. It should open in silent mode - so check your system tray to see if it launched. Or, just click the Launch Foxhole file after a bit.
 9. Not working? Check the troubleshooting below, and be sure you followed every step here. 
 
+# Autoclickers
+Now that you can launch Foxhole on your alts, it's time to launch OpenMultiBoxer. You will need to configure this program to look for your Foxhole game windows. When it is setup, it will rename the windows to OMB1, OMB2, etc. The autoclickers target these windows by their name.  
+
 
 # Troubleshooting
 
