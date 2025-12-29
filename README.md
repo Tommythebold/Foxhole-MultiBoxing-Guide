@@ -1,60 +1,84 @@
-# Why Multibox?
-Having multiple accounts in Foxhole can enable you to far more efficiently carry out certain tasks, and simply make life easier. Some examples are below.
-* Using alts to drive a train, while you hit switches ahead of it. This makes trains far more enjoyable and safer to drive.
-* Setting multiple MPF queues. During low pop hours the MPF can get pretty empty.
-* Building. Since building is mostly just endless clicking, set your alts on the job. 
-* Emptying autoharvesters. Have an alt sit at the harvester and empty every once in a while, while your main does other stuff.
-* Drive multiple vehicles at once - flatbeds in particular.
-* You could probably drive a large ship solo as well, but this isn't very common unless the Bowhead becomes useful. 
-* Solo driving tanks. While a bit more contentous than using alts for logi, many people do this, and devs have explicitaly stated it's allowed. No more wrangling a team to tank.
+# Preamble
+This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey hotkeys that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 
-# Is it allowed?
-Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Many logi vets have at least one alt, and some have multiple online at the same time. Some have 10+ for MPF queues.
+### Is this allowed?
+Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts.
 
-# What you can do with this guide.
+### What you can do with this guide.
 If you follow this guide, you will be able to:
 * Run as many steam accounts/Foxhole games on the same PC at once as you like.
 * Easily switch between windows and organize them anyway youd like.
 * See your other Foxhole windows, even on the same monitor. Focus on small regions of other Foxhole windows, for example to track a harvesters inventory, or see just a minimap on an alt.
 * Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location. Includes moving, clicking, etc.
-  
-# Requirements
+
+## Requirements
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
 * [SandBoxie-Plus](https://sandboxie-plus.com/) - for running multiple steam accounts/Foxhole games on the same PC.
-* [OnTopReplica](https://github.com/LorenzCK/OnTopReplica) - for viewing the other Foxhole windows. This way, all windows can just be stacked on your main monitor.
 * [AutoHotKey](https://www.autohotkey.com/) - for the autoclickers to work. Either version should work.
-* Multiple [steam accounts](https://store.steampowered.com/join) - each with a copy of Foxhole. You can get it on sale for $20.
-* OPTIONAL - If you have a second PC, and/or want to quickly swap between accounts, download [TcNo Account Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher). This program can close steam, launch a new account on steam, and luanch Foxhole with 3 clicks. It is also extremely fast at doing so. 
-* Free keys - at least 3-5 per account. An [MMO mouse](https://www.amazon.com/Logitech-Gaming-Backlit-Programmable-Buttons/dp/B0086UK7IQ) or [Elgato Streamdeck](https://www.elgato.com/us/en/p/stream-deck-xl) are great options. Every action will require its own dedicated key for each account - for example, holding W on account 3 will need a key. While you can use key combinations for this, it can get pretty cumbersome.
-* A decent PC and internet connection. You will be able to limit background FPS and lower settings, but there is still a limit. On my 3090 and 5900x, its about 5 accounts.
+* Multiple [steam accounts](https://store.steampowered.com/join) - each with a copy of Foxhole. You can get it on sale for $20, or less in certain countries.
+* OPTIONAL - [OnTopReplica](https://github.com/LorenzCK/OnTopReplica) - for viewing the other Foxhole windows. This way, all windows can just be stacked on your main monitor at full size.
+* Free keyboard/mouse keys - at least 3-5 per account. An [MMO mouse](https://www.amazon.com/Logitech-Gaming-Backlit-Programmable-Buttons/dp/B0086UK7IQ) or [Elgato Streamdeck](https://www.elgato.com/us/en/p/stream-deck-xl) are great options. Every action will require its own dedicated key for each account - for example, holding W on account 3 will need a key. While you can use key combinations for this, it can get pretty cumbersome. The stream deck is what I use now, and has near infinite hotkeys. It is by far the best option.
 * Minimal PC skills. This guide will help you, but you need to know your way around a computer, and be able to edit some files. 
 
-# Setup
-This section will walk you through the basic setup steps. However, as mentioned above, you will probably have to do some troubleshooting/googling yourself. Sandboxie in particular can be janky when launching steam.
+> [!WARNING]
+> Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file.
 
-# Sandboxie - Option 1
-This option is acceptable if you have less than 5 accounts, and want to get going quickly. 
-* On your main steam account, head to Settings > Interface > "ask which account to use each time Steam starts". This means that every time you launch a steam sandbox, you can choose which account is launching. This can be annoying, however, and Option 2 has a better way of doing this. 
-* Check if your steam is up to date by clicking Steam on the top left of your main steam account window, and choosing "Check for Steam Client Updates". 
+# Contents
 
-Now we can try launching a second instance of steam.
-* Launch the Sandboxie program.
-* Right click on the main window and choose "Create New Box".
-* Choose "Standard Sandbox" and name it whatever you like.
-* Right click on the sandbox you made, select "Run", then "Run Program".
-* In the window that opens, click "Browse" and navigate to your steam.exe file. For me, the path is "C:\Program Files (x86)\Steam\steam.exe".
-* Select "Run as UAC Administrator" in the window. If you do not run the sandbox as admin, you will get a VAC error when logging into Foxhole.
+# Guide
+> [!IMPORTANT]
+> Read everything in this guide! There are many important tips that will ensure your setup works perfectly!
+> 
+## Steam Setup
+On your main steam account, <ins>disable steam beta</ins>, so you don't have to update your sandboxes every day. Always make sure both Foxhole and steam are up to date. Any time Foxhole or Steam updates, you will have to reset your sandboxes - this is easy and will be explained later.
 
-When you click "OK", steam should launch, and you should be able to choose from your list of accounts. In reality, it will probably get stuck trying to install an update. 
+<ins>Switch accounts</ins> and login to your alt account on steam outside of Sandboxie. Your PC will remember certain steam and Foxhole settings per account, so they will always be correct, even when you delete your sandbox contents for updates.
 
-# Sandboxie - Option 2
-This is the setup that I personally use, after being frustrated with the limitations of option 1. This setup will allow you to create shortcuts that will launch the chosen sandbox and automatically enter your login information, meaning you can launch a new steam window with 1 click. It entirely bypasses the issues of choosing accounts, logging in, and having to re-select the steam.exe whenever you reset the sandbox for an update. 
+Once you are logged into your **_alt account_** on steam, 
+1. Disable steam Beta.
+- `Steam > Settings > Interface > Client Beta Participation > No Beta Chosen`
+<img width="241" height="261" alt="image" src="https://github.com/user-attachments/assets/8fcb0164-4bdd-4d27-a972-bb751b6fe7ba" />
+<img width="850" height="722" alt="image" src="https://github.com/user-attachments/assets/98a8caf4-97e6-4250-8b68-28abe92e96a0" />
 
-This setup will require you to disable Steam Guard on your alt accounts (to login) and also type your username and password as parameters in a shortcut file. If you don't think this is a good idea (Unsecure PC, shared password, etc), then refer back to Option 1.
 
-This option is also quite a bit more complicated. 
+2. Disable steam guard. This will allow for instant login from the batch files, bypassing email-codes and even 2FA for logins. 
+- `Steam > Settings > Security > Manage Steam Guard > Turn Steam Guard off`
+<img width="840" height="702" alt="image" src="https://github.com/user-attachments/assets/4ff4dbb6-e7eb-4488-b4d3-d28e24a27a10" />
+<img width="739" height="493" alt="image" src="https://github.com/user-attachments/assets/5ab0db66-2ca5-48aa-9d81-de72ae29b952" />
 
-Quick Setup:
+
+3. Launch Foxhole. You must do this on every alt outside of a Sandbox so your PC remembers these settings. Accept the EULA that pops up, choose the Able server (it defaults to Charlie), login. Click through the tutorials (it resets this), deploy somewhere and click through the tutorials again. Go to your settings, turn on sprint toggle and whatever other settings you want it to remember. When you are done, close the game.
+4. Repeat the steps above for every alt account!
+> [!TIP]
+> If you notice settings being wrong when you reset sandboxes for an update, follow step 3 again! 
+
+## Sandboxie Setup
+Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it. 
+
+1. Create a Sandbox `Right Click > Create New Box` or `Sandbox > Create New Box`. 
+<img width="200" height="320" alt="image" src="https://github.com/user-attachments/assets/963c2a4e-e87c-44bc-925b-ca6799b5d613" />
+
+- Name it Account 1 (or whatever you like, but remember the name!), and choose Standard Sandbox. You can skip the next page and finish.
+
+<img width="598" height="415" alt="image" src="https://github.com/user-attachments/assets/b24dbd11-fe69-46b3-9cc8-86ea0486fdb9" />
+<img width="595" height="430" alt="image" src="https://github.com/user-attachments/assets/1baab49e-4dab-4d40-926e-e05226d42647" />
+
+- Important step! `Right click Account1 > Sandbox Preset > Emulate Admin Rights`. By setting this option, it will not ask for admin permission every time it launches!
+
+<img width="479" height="260" alt="image" src="https://github.com/user-attachments/assets/dffd294d-a8f4-4cee-bcef-bc6d1d3c514c" />
+
+- Repeat the following step for however many accounts you have. `Right click Account1 > Sandbox Tools > Duplicate Box Config`. Name it Account2, Account3, etc... (or whatever you want).
+
+<img width="500" height="236" alt="image" src="https://github.com/user-attachments/assets/49090364-230b-4ec2-9ba7-d8be2ff9b6c3" />
+
+## Batch Files
+Download the 
+
+
+
+
+
+# Quick Setup
 1. Launch Sandboxie, and make a new box named Account1.
 2. Download the 3 files linked in this GitHub from the releases page - or just click here.
 3. Create a new folder anywhere on your pc, and drag the files you downloaded into the folder.
