@@ -21,7 +21,7 @@ If you follow this guide, you will be able to:
 * Minimal PC skills. This guide will help you, but you need to know your way around a computer, and be able to edit some files. 
 
 > [!WARNING]
-> Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file.
+> Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file for your alts.
 
 # Contents
 
@@ -58,7 +58,7 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 1. Create a Sandbox `Right Click > Create New Box` or `Sandbox > Create New Box`. 
 <img width="200" height="320" alt="image" src="https://github.com/user-attachments/assets/963c2a4e-e87c-44bc-925b-ca6799b5d613" />
 
-- Name it Account 1 (or whatever you like, but remember the name!), and choose Standard Sandbox. You can skip the next page and finish.
+- Name it Account1 (or you will have to change it in the batch files), and choose Standard Sandbox. You can skip the next page and finish.
 
 <img width="598" height="415" alt="image" src="https://github.com/user-attachments/assets/b24dbd11-fe69-46b3-9cc8-86ea0486fdb9" />
 <img width="595" height="430" alt="image" src="https://github.com/user-attachments/assets/1baab49e-4dab-4d40-926e-e05226d42647" />
@@ -72,8 +72,25 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 <img width="500" height="236" alt="image" src="https://github.com/user-attachments/assets/49090364-230b-4ec2-9ba7-d8be2ff9b6c3" />
 
 ## Batch Files
-Download the 
+1. Download the repository by clicking here. Click on the file you downloaded. You will see a folder named Foxhole Multiboxing - drag this folder onto the top level of your C: Drive. The batch files paths are setup assuming you put the folder here!
 
+2. Open the Foxhole Multiboxing folder. The path should be `C:\Foxhole Multiboxing`. Then open the Sandboxie folder. `C:\Foxhole Multiboxing\Sandboxie`. You will see all the batch files here.
+
+3. Open the Login Info folder. `C:\Foxhole Multiboxing\Sandboxie\Login Info`. `Right Click > Properties` on the 1 - Login Info shortcut file. This should be a shortcut to your steam.exe file. 
+    - The 'Target' field should have `"C:\Program Files (x86)\Steam\steam.exe" -silent -login USERNAME PASSWORD` as its contents. The first part should point to your steam.exe file - if it's wrong, find your steam.exe, and `Shift + Right Click > Save as path` it. Then replace the existing steam path with the correct one.
+    - Enter your ALT ACCOUNTS username and password where it says USERNAME and PASSWORD. This will allow for auto login, since you disabled Steam Guard earlier.
+4. Go back to the Sandboxie folder `C:\Foxhole Multiboxing\Sandboxie`. Find the file named `S1 - Launch Steam`. The 1 refers to which account it will launch. `Right Click > Edit in Notepad` this file.
+   - You will see the following text `"C:\Program Files\Sandboxie-Plus\start.exe" /box:Account1 "C:\Foxhole Multiboxing\Sandboxie\Login Info\1 - Login Info.lnk"`.
+   - The first field is the path to your sandboxie exe file. It might be correct by default - if not, find it in your program files folder, and again `Shift + Right Click > Save as path` the file, and replace the path in the batch file.
+   - The second field is your sandbox name.
+   - The third field is the path to your steam shortcut you just setup. If the path is wrong, go back into the Login Info folder, and once again, `Shift + Right Click > Save as path` the login info file with the same number, and paste it into the third field of the batch file, replacing the old path. 
+5. Go back to the Sandboxie folder `C:\Foxhole Multiboxing\Sandboxie`. Find the file named `F1 - Launch Foxhole`. The 1 refers to which account it will launch. `Right Click > Edit in Notepad` this file.
+   - You will see the following text `"C:\Program Files\Sandboxie-Plus\start.exe" /box:Account1 "C:\Steam\steamapps\common\Foxhole\War\Binaries\Win64\War-Win64-Shipping.exe"`.
+   - The first field is the path to your sandboxie exe file. It might be correct by default - if not, find it in your program files folder, and again `Shift + Right Click > Save as path` the file, and replace the path in the batch file.
+   - The second field is your sandbox name.
+   - The third field is the path to your Foxhole game exe. If it's wrong, go to steam and find your Foxhole game on the left, then `Right Click > Manage > Browse Local Files`. In the folder that opens, go to `War > Binaries > Win64 > War-Win64-Shipping.exe`. Once again, `Shift + Right Click > Save as path` this file, and paste it into the third field of the batch file, replacing the old path. 
+
+You have completed the most difficult part of the setup! Copy and paste the files above and edit the numbers to corrospond to each of your alt accounts as needed. For example, if you have 2 accounts, then copy all 3 files mentioned above, and rename to F2, etc, and edit the `Account1` inside the two batch files to say `Account2`. 
 
 
 
