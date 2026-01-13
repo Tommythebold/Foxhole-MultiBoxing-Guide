@@ -1,15 +1,23 @@
 # Preamble
 This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey hotkeys that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 
-### Is this allowed?
+## Is this allowed?
 Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts.
 
-### What you can do with this guide.
+
+## What you can do with this guide.
 If you follow this guide, you will be able to:
 * Run as many steam accounts/Foxhole games on the same PC at once as you like.
 * Easily switch between windows and organize them anyway youd like.
-* See your other Foxhole windows, even on the same monitor. Focus on small regions of other Foxhole windows, for example to track a harvesters inventory, or see just a minimap on an alt.
+* Control your entire multiboxing setup with just a few batch files. 
 * Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location. Includes moving, clicking, etc.
+
+
+> [!IMPORTANT]
+> Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
+> walk you through step by step, but you must have patience and perhaps even the ability to google a couple things.
+> The fun of multiboxing is building powerful setups and seeing just how much you can do at once.
+> If you perservere, you can become a master of logistics, maxing MPFs and printing bmats by the tens of millions per war. Be careful not to burnout though!
 
 ## Requirements
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
