@@ -30,9 +30,9 @@ If you follow this guide, you will be able to:
 > Read everything in this guide! There are many important tips that will ensure your setup works perfectly!
 > 
 ## Steam Setup
-On your main steam account, <ins>disable steam beta</ins>, so you don't have to update your sandboxes every day. Always make sure both Foxhole and steam are up to date. Any time Foxhole or Steam updates, you will have to reset your sandboxes - this is easy and will be explained later.
+1. On your main steam account, <ins>disable steam beta</ins>, so you don't have to update your sandboxes every day. Always make sure both Foxhole and steam are up to date. Any time Foxhole or Steam updates, you will have to reset your sandboxes - this is easy and will be explained later.
 
-<ins>Switch accounts</ins> and login to your alt account on steam outside of Sandboxie. Your PC will remember certain steam and Foxhole settings per account, so they will always be correct, even when you delete your sandbox contents for updates.
+2. <ins>Switch accounts</ins> and login to your alt account on steam outside of Sandboxie. Your PC will remember certain steam and Foxhole settings per account, so they will always be correct, even when you delete your sandbox contents for updates.
 
 Once you are logged into your **_alt account_** on steam, 
 1. Disable steam Beta.
@@ -90,11 +90,11 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 
 
 ## Batch Files
-1. Download the repository by clicking here. Click on the file you downloaded. You will see a folder named Foxhole Multiboxing - drag this folder onto the top level of your C: Drive. The batch files paths are setup assuming you put the folder here!
+1. Download the repository by clicking here. Click on the file you downloaded. You will see a folder named `Foxhole Multiboxing` - drag this folder onto the top level of your C: Drive. The batch files paths are setup assuming you put the folder here!
 
 2. Open the Foxhole Multiboxing folder. The path should be `C:\Foxhole Multiboxing`. Then open the Sandboxie folder. `C:\Foxhole Multiboxing\Sandboxie`. You will see all the batch files here.
 
-3. Open the Login Info folder. `C:\Foxhole Multiboxing\Sandboxie\Login Info`. `Right Click > Properties` on the 1 - Login Info shortcut file. This should be a shortcut to your steam.exe file. 
+3. Open the Login Info folder. `C:\Foxhole Multiboxing\Sandboxie\Login Info`. `Right Click > Properties` on the `1 - Login Info` shortcut file. This should be a shortcut to your steam.exe file. 
     - The 'Target' field should have `"C:\Program Files (x86)\Steam\steam.exe" -silent -login USERNAME PASSWORD` as its contents. The first part should point to your steam.exe file - if it's wrong, find your steam.exe, and `Shift + Right Click > Save as path` it. Then replace the existing steam path with the correct one.
     - Enter your ALT ACCOUNTS username and password where it says USERNAME and PASSWORD. This will allow for auto login, since you disabled Steam Guard earlier.
 4. Go back to the Sandboxie folder `C:\Foxhole Multiboxing\Sandboxie`. Find the file named `S1 - Launch Steam`. The 1 refers to which account it will launch. `Right Click > Edit in Notepad` this file.
@@ -154,9 +154,36 @@ We can now setup the 2 batch files that can launch and reset all your sandboxes 
 
 # Autoclickers
 Before we get to setting up OpenMultiBoxer, we will setup our AHK Hotkeys. 
-1. Navigate to `"C:\Foxhole Multiboxing\AutoClickers"`.
-   - Find the file `Foxhole - OMB 1` and `Right Click > Edit in Notepad`.
-   - 
+1. Navigate to `"C:\Foxhole Multiboxing\AutoClickers"`. Find the file `Foxhole - OMB 1` and `Right Click > Edit in Notepad`.
+
+
+# OpenMultiBoxing
+Install and launch [OpenMultiBoxing](https://openmultiboxing.org/). This is the program that will allow you to resize, switch between and rename your Foxhole windows. You will get familiar with it as you use it, so let's get a simple setup going.
+
+1. Click the `Window Layout` button.
+    <details>
+    <summary>Image</summary>
+    <img src="https://github.com/user-attachments/assets/95826a81-6833-4e07-adf2-0b59395127a7" width="500">
+    </details>
+    
+    - In the window that opens, you can just drag the OMB 1 window to fill your entire screen, or whatever else you'd like.
+    
+    - You can drag the `Layout for x windows` slider at the top for however many accounts you will be playing with at once. You can also select `Same size for all` right next to the slider.
+    
+    - You can choose what monitors you use on the bottom left.
+    
+    - Play around with this tool. You will be able to modify your setups while your game is running, so let's move on.
+    
+2. Launch Foxhole on your main account if it isn't already open. When your are tabbed into Foxhole, press `Ctrl+Alt+Shift+C`, or whatever the keybind is on the `hk,capture` line under the edit settings button. This will capture the window, and save is as a Game on the top row of menus in OMB. You should see `OMB 1` in the large window below the `Capture` button, and the window will resize to your window layout you made.
+    
+    - Now let's launch your first alt account. Navigate to `C:\Foxhole Multiboxing\Sandboxie`, and run the `S1 - Launch Steam` file. If your steam and Foxhole are up to date on your main account, and you followed the steps above, it should launch steam in minimized mode - you can check if it launched by clicking the `Show hidden icons` button in the bottom right of your Windows taskbar. It should look like the Steam icon with a rectangle around it.
+    - You can right click this icon and click Library if you need to see this accounts steam for some reason.
+    - Now you can click the `F1 - Launch Foxhole` file. If it asks you to confirm the TOS/EULA, you didn't log into the accounts outside of Sandboxie as mentioned above. It will still work however.
+    - Once Foxhole has launched on your alt account, tab into it and again press `Ctrl+Alt+Shift+C` to capture the window. OMB will now recognize the Sandboxed version of Foxhole from now on, and you should see `OMB 2` in the list of windows in OMB.
+    - If you launch more accounts, make sure on OMB under the Game tab on the top row, that `[#] War [#]` is selected. This is the Sandboxed version of Foxhole, while `War` is your main accounts Foxhole (not Sandboxed).
+3. Once you've launched your Foxhole games, play around with Window layout in OMB to get a layout you like. I myself initially used a 'Stack-All' layout, and used a keybind to switch between windows. However, I've found being able to see every window at once to be much easier in general. You can have one larger window and many smaller ones, and use hotkeys to switch them around. Try using the `Auto` button in the Window layout.
+    - You should glance through the `Edit Settings` file. See what the keybinds are, in particular the `hk,swapNextWindow` hotkey. You can also set hotkeys to switch to specific windows below that. Be sure to click `Reload Settings` when you are done editing.
+    - When you have settings you like, you should click `File > New Profile` to save your current settings to a profile. You can easily switch between profiles under the `Profile` tab to try out different layouts.
 
 
 # Troubleshooting
