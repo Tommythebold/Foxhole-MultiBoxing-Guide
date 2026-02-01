@@ -1,6 +1,23 @@
 # Foxhole Multiboxing Guide
 This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey hotkeys that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 
+# Contents
+Preamble
+
+[Steam Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#steam-setup)
+
+[Sandboxie Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#sandboxie-setup)
+
+[Batch Files](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#batch-files)
+
+[Master Batch Files](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#master-batch-files)
+
+[AutoClickers](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#autoclickers)
+
+[OpenMultiBoxing](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#openmultiboxing)
+
+# Preamble
+
 ## Is this allowed?
 Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts.
 
@@ -27,18 +44,7 @@ If you follow this guide, you will be able to:
 > [!WARNING]
 > Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file for your alts.
 
-# Contents
-[Steam Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#steam-setup)
 
-[Sandboxie Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#sandboxie-setup)
-
-[Batch Files](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#batch-files)
-
-[Master Batch Files](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#master-batch-files)
-
-[AutoClickers](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#autoclickers)
-
-[OpenMultiBoxing](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#openmultiboxing)
 
 # Guide
 > [!IMPORTANT]
