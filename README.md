@@ -28,7 +28,7 @@ If you follow this guide, you will be able to:
 > Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file for your alts.
 
 # Contents
-[Steam Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#steam-setup) 
+[Steam Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#guide)
 
 [Sandboxie Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#sandboxie-setup)
 
