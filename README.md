@@ -12,7 +12,7 @@ If you follow this guide, you will be able to:
 * Control your entire multiboxing setup with just a few batch files. 
 * Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location. Includes moving, clicking, etc.
 
-
+-----
 > [!IMPORTANT]
 > Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
 > walk you through step by step, but you must have patience and perhaps even the ability to google a couple things.
@@ -22,11 +22,8 @@ If you follow this guide, you will be able to:
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
 * [SandBoxie-Plus](https://sandboxie-plus.com/) - for running multiple steam accounts/Foxhole games on the same PC.
 * [AutoHotKey](https://www.autohotkey.com/) - for the autoclickers to work. Either version should work.
-* Multiple [steam accounts](https://store.steampowered.com/join) - each with a copy of Foxhole. You can get it on sale for $20, or less in certain countries.
-* OPTIONAL - [OnTopReplica](https://github.com/LorenzCK/OnTopReplica) - for viewing the other Foxhole windows. This way, all windows can just be stacked on your main monitor at full size.
-* Free keyboard/mouse keys - at least 3-5 per account. An [MMO mouse](https://www.amazon.com/Logitech-Gaming-Backlit-Programmable-Buttons/dp/B0086UK7IQ) or [Elgato Streamdeck](https://www.elgato.com/us/en/p/stream-deck-xl) are great options. Every action will require its own dedicated key for each account - for example, holding W on account 3 will need a key. While you can use key combinations for this, it can get pretty cumbersome. The stream deck is what I use now, and has near infinite hotkeys. It is by far the best option.
-* Minimal PC skills. This guide will help you, but you need to know your way around a computer, and be able to edit some files. 
 
+-----
 > [!WARNING]
 > Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file for your alts.
 
