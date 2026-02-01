@@ -1,4 +1,4 @@
-# Preamble
+# Foxhole Multiboxing Guide
 This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey hotkeys that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 
 ## Is this allowed?
@@ -17,7 +17,6 @@ If you follow this guide, you will be able to:
 > Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
 > walk you through step by step, but you must have patience and perhaps even the ability to google a couple things.
 > The fun of multiboxing is building powerful setups and seeing just how much you can do at once.
-> If you perservere, you can become a master of logistics, maxing MPFs and printing bmats by the tens of millions per war. Be careful not to burnout though!
 
 ## Requirements
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
@@ -32,6 +31,17 @@ If you follow this guide, you will be able to:
 > Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file for your alts.
 
 # Contents
+[Steam Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#steam-setup) 
+
+[Sandboxie Setup](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#sandboxie-setup)
+
+[Batch Files](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#batch-files)
+
+[Master Batch Files](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#master-batch-files)
+
+[AutoClickers](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#autoclickers)
+
+[OpenMultiBoxing](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/edit/main/README.md#openmultiboxing)
 
 # Guide
 > [!IMPORTANT]
@@ -96,6 +106,8 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 <img src="https://github.com/user-attachments/assets/49090364-230b-4ec2-9ba7-d8be2ff9b6c3" width="500">
 </details>
 
+> [!IMPORTANT]
+> The following steps might seem intimidating, but it's actually pretty simple! Doing this one-time setup will save you so much time overall.
 
 ## Batch Files
 1. Download the repository by clicking here. Click on the file you downloaded. You will see a folder named `Foxhole Multiboxing` - drag this folder onto the top level of your C: Drive. The batch files paths are setup assuming you put the folder here!
@@ -162,6 +174,20 @@ We can now setup the 2 batch files that can launch and reset all your sandboxes 
 
 # Autoclickers
 Before we get to setting up OpenMultiBoxer, we will setup our AHK Hotkeys. 
+
+There are 2 types of hotkeys we can use. The first and easiest setup will share the same hotkeys between all accounts, and will work when you tab into a certain accounts game window.
+For example, if you tab into OMB 1 and press F3, then the character in OMB 1 will drive forward. If you tab over to OMB 2 and press F3, the the character in OMB 2 will drive forward.
+
+This is the easiest and often most powerful setup. If you want to get more advanced and make hotkeys that target a certain account no matter what, remove the `#IfWinActive, OMB 1` line from the AHK file, then edit it as you like.
+
+The default hotkeys are:
+- F2 - Spam left click at location
+- F3 - Hold W
+- F4 - Hold S
+- F5 - Left Click Building
+- F6 - Hold Right Click
+- F7 - Hold Left Click
+
 1. Navigate to `"C:\Foxhole Multiboxing\AutoClickers"`. Find the file `Foxhole - OMB 1` and `Right Click > Edit in Notepad`.
 
 
