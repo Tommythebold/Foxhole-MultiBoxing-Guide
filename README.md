@@ -17,6 +17,10 @@ This guide will help you setup a very powerful and easy to use multiboxing setup
 [OpenMultiBoxing](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#openmultiboxing)
 
 # Preamble
+> [!IMPORTANT]
+> Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
+> walk you through step by step, but you must have patience and perhaps even the ability to google a couple things.
+> The fun of multiboxing is building powerful setups and seeing just how much you can do at once.
 
 ## Is this allowed?
 Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts.
@@ -28,12 +32,6 @@ If you follow this guide, you will be able to:
 * Easily switch between windows and organize them anyway youd like.
 * Control your entire multiboxing setup with just a few batch files. 
 * Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location. Includes moving, clicking, etc.
-
------
-> [!IMPORTANT]
-> Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
-> walk you through step by step, but you must have patience and perhaps even the ability to google a couple things.
-> The fun of multiboxing is building powerful setups and seeing just how much you can do at once.
 
 ## Requirements
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
