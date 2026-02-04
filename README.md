@@ -1,5 +1,9 @@
 # Foxhole Multiboxing Guide
 This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey hotkeys that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
+<details>
+<summary>Click for Preview Images</summary>
+<img src="https://github.com/user-attachments/assets/4f33720e-b04e-4939-a598-77a6b7911ef4" width="700">
+</details>
 
 # Contents
 [Preamble](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#preamble)
@@ -20,7 +24,8 @@ This guide will help you setup a very powerful and easy to use multiboxing setup
 > [!IMPORTANT]
 > Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
 > walk you through step by step, but you must have patience and perhaps even the ability to google a couple things.
-> The fun of multiboxing is building powerful setups and seeing just how much you can do at once.
+> If you put in the effort and complete this guide, you will have the most powerful and easy multiboxing setup that
+> I have built over years of playing. 
 
 ## Is this allowed?
 Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts.
@@ -31,16 +36,17 @@ If you follow this guide, you will be able to:
 * Run as many steam accounts/Foxhole games on the same PC at once as you like.
 * Easily switch between windows and organize them anyway youd like.
 * Control your entire multiboxing setup with just a few batch files. 
-* Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location. Includes moving, clicking, etc.
+* Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location, moving, building, or whatever else you want.
 
 ## Requirements
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
 * [SandBoxie-Plus](https://sandboxie-plus.com/) - for running multiple steam accounts/Foxhole games on the same PC.
-* [AutoHotKey](https://www.autohotkey.com/) - for the autoclickers to work. Either version should work.
+* [AutoHotKey](https://www.autohotkey.com/) - for the autoclickers to work. Use v1.
 
 -----
 > [!WARNING]
-> Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file, to allow for instant login from a batch file for your alts.
+> Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file for your _alt accounts_, to allow for instant login from a batch file. If you don't,
+> you will have to constantly do email checks or even 2FA.
 
 
 
@@ -107,6 +113,7 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 <img src="https://github.com/user-attachments/assets/49090364-230b-4ec2-9ba7-d8be2ff9b6c3" width="500">
 </details>
 
+-----
 > [!IMPORTANT]
 > The following steps might seem intimidating, but it's actually pretty simple! Doing this one-time setup will save you so much time overall.
 
