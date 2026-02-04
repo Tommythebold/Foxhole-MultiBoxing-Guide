@@ -1,0 +1,1 @@
+"C:\Program Files\Sandboxie-Plus\start.exe" /box:Account2 "C:\Foxhole Multiboxing\Sandboxie\Login Info\2 - Login Info.lnk"
