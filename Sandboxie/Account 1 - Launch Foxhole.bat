@@ -1,1 +1,0 @@
-"C:\Program Files\Sandboxie-Plus\start.exe" /box:Account1 "C:\Steam\steamapps\common\Foxhole\War\Binaries\Win64\War-Win64-Shipping.exe"
