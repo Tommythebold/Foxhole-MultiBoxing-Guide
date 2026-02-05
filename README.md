@@ -200,7 +200,24 @@ The default hotkeys are:
 - F6 - Hold Right Click
 - F7 - Hold Left Click
 
-1. Navigate to `"C:\Foxhole Multiboxing\AutoClickers"`. Find the file `Foxhole - OMB 1` and `Right Click > Edit in Notepad`.
+To change the keybindings and make your own keys, navigate to `"C:\Foxhole Multiboxing\AutoClickers"`, Find the file `Foxhole - OMB 1` and `Right Click > Edit in Notepad`. Follow the steps in the file.
+
+Let's quickly setup the batch file to launch all the autoclickers at once.
+
+1. In `C:\Foxhole Multiboxing\Sandboxie`, find `_Launch All Autoclickers` and `Right Click > Edit in Notepad`.
+    - You will see
+     ```
+     @echo off
+    START "" "C:\Foxhole Multiboxing\AutoClickers\Foxhole - OMB 1.ahk"
+    START "" "C:\Foxhole Multiboxing\AutoClickers\Foxhole - OMB 2.ahk"
+    echo AutoHotkey script started.
+    timeout /t 0 /nobreak >nul
+    exit
+     ```
+    - To add more autoclicker files to be launched, just copy the second line and paste it below, then edit the `OMB 1` to say `OMB 2`, etc.
+
+
+2. The file `_Close All Autoclickers` should be setup correctly already. It targets the `"autohotkeyu64.exe"` task to end all autoclickers at once. If it doesn't work, find the correct task in Task Manager (or DM me). 
 
 
 # OpenMultiBoxing
@@ -233,8 +250,10 @@ Install and launch [OpenMultiBoxing](https://openmultiboxing.org/). This is the 
 
 
 # Troubleshooting
+> [!TIP]
+> Something missing from the guide? Did you follow the steps but something doesn't work? Have questions about it in general?
+> You can DM me on Discord (Tommythebold#0001) for help. Just be aware - I can't walk you through this guide anymore than I already have!
 
-# Troubleshooting - Sandboxie
 
 **- Steam gets stuck trying to install an update!**
 
