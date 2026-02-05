@@ -258,14 +258,5 @@ Install and launch [OpenMultiBoxing](https://openmultiboxing.org/). This is the 
 > You can DM me on Discord (Tommythebold#0001) for help. Just be aware - I can't walk you through this guide anymore than I already have!
 
 
-**- Steam gets stuck trying to install an update!**
-
-This is the most common issue people have with alt accounts by far.
-Possible solutions:
-* 1. Update steam on your main account.
-* 2. Open Sandboxie, right click on the Sandbox, and choose "Delete Content". Try relaunching the Sandbox, and it will copy from your updated steam files. Whenever steam updates, you will need to do this.
- 
-You can try restarting your main steam account to check for updates, or even try restarting your computer. To be honest, the above option is the only thing that really worked for me. It is also worth mentioning that sometimes, if you allow the sandbox to write to folders or whatever when its stuck on when installing, it actually works. 
-
 
 
