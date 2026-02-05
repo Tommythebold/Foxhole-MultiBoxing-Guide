@@ -22,6 +22,8 @@ This guide will help you setup a very powerful and easy to use multiboxing setup
 
 [OpenMultiBoxing](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#openmultiboxing)
 
+[Troubleshooting](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide#troubleshooting)
+
 # Preamble
 > [!IMPORTANT]
 > Multiboxing, and this guide, are for moderately advanced users! You must be able to navigate File Explorer, edit files in Notepad, and do some testing/expirementing to get your setup just right for you. This guide will
