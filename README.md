@@ -7,7 +7,6 @@ This guide will help you setup a very powerful and easy to use multiboxing setup
 </details>
 
 
-
 # Contents
 [Preamble](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#preamble)
 
