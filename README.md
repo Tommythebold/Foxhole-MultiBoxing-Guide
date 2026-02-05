@@ -1,5 +1,5 @@
 # Foxhole Multiboxing Guide
-This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey autoclickers that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
+This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey autoclickers that target each game account specifically and work while tabbed out - and even share keybinds. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 <details>
 <summary>Click for Preview Images</summary>
 <img src="https://github.com/user-attachments/assets/4f33720e-b04e-4939-a598-77a6b7911ef4" width="700">
@@ -38,7 +38,7 @@ If you follow this guide, you will be able to:
 * Run as many steam accounts/Foxhole games on the same PC at once as you like.
 * Easily switch between windows and organize them anyway youd like.
 * Control your entire multiboxing setup with just a few batch files. 
-* Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location, moving, building, or whatever else you want.
+* Use an autoclicker that allows you to tab out for all accounts - inluding spam click at the chosen location, moving, building, or whatever else you want. You can even use the same keybinds for all accounts!
 
 ## Requirements
 * [OpenMultiBoxing](https://openmultiboxing.org/) - for organizing the game windows and switching between them. Also renames the windows, required for the autoclickers to work.
@@ -47,8 +47,8 @@ If you follow this guide, you will be able to:
 
 -----
 > [!WARNING]
-> Use a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file for your _alt accounts_, to allow for instant login from a batch file. If you don't,
-> you will have to constantly do email checks or even 2FA.
+> Consider using a seperate password for your steam alt accounts! This guide requires you to disable steam guard and type your steam password into the properties part of a shortcut file for your _alt accounts_, to allow for instant login from a batch file. If you don't,
+> you will have to constantly do email checks or even 2FA. 
 
 
 
@@ -58,12 +58,12 @@ If you follow this guide, you will be able to:
 
 
 ## Steam Setup
-1. On your main steam account, <ins>disable steam beta</ins>, so you don't have to update your sandboxes every day. Always make sure both Foxhole and steam are up to date. Any time Foxhole or Steam updates, you will have to reset your sandboxes - this is easy and will be explained later.
 
-2. <ins>Switch accounts</ins> and login to your alt account on steam outside of Sandboxie. Your PC will remember certain steam and Foxhole settings per account, so they will always be correct, even when you delete your sandbox contents for updates.
+1. Tab into Steam. Click on `Username > Change accounts` on the top right of Steam, and login to your alt account. Your PC will remember certain steam and Foxhole settings per account, so they will always be correct, even when you delete your sandbox contents for updates. (Yes, you need to do this outside of Sandboxed steam).
 
 Once you are logged into your **_alt account_** on steam, 
-1. Disable steam Beta.
+
+2. Disable steam Beta, if it isn't already.
 - `Steam > Settings > Interface > Client Beta Participation > No Beta Chosen`
 <details>
 <summary>Image</summary>
@@ -71,7 +71,7 @@ Once you are logged into your **_alt account_** on steam,
 <img src="https://github.com/user-attachments/assets/98a8caf4-97e6-4250-8b68-28abe92e96a0" width="700">
 </details>
 
-2. Disable steam guard. This will allow for instant login from the batch files, bypassing email-codes and even 2FA for logins. 
+3. Disable steam guard. This will allow for instant login from the batch files, bypassing email-codes and even 2FA for logins. 
 - `Steam > Settings > Security > Manage Steam Guard > Turn Steam Guard off`
 <details>
 <summary>Image</summary>
@@ -80,10 +80,14 @@ Once you are logged into your **_alt account_** on steam,
 </details>
 
 
-3. Launch Foxhole. You must do this on every alt outside of a Sandbox so your PC remembers these settings. Accept the EULA that pops up, choose the Able server (it defaults to Charlie), login. Click through the tutorials (it resets this), deploy somewhere and click through the tutorials again. Go to your settings, turn on sprint toggle and whatever other settings you want it to remember. When you are done, close the game.
-4. Repeat the steps above for every alt account!
+4. <ins>Important step!</ins> Launch Foxhole. You must do this on every alt outside of a Sandbox so your PC remembers these settings. Accept the EULA that pops up, choose the Able server (it defaults to Charlie), login. Click through the tutorials (it resets this), deploy somewhere and click through the tutorials again. Go to your settings, turn on sprint toggle and whatever other settings you want it to remember. When you are done, close the game. 
+
+
+5. Repeat the steps above for every alt account!
 > [!TIP]
 > If you notice settings being wrong when you reset sandboxes for an update, follow step 3 again! 
+
+Switch back to your main steam account and make sure steam beta is disabled so you don't have to update your sandboxes every day. Always make sure both Foxhole and steam are up to date. Any time Foxhole or Steam updates, you will have to reset your sandboxes - this is easy and will be explained later.
 
 ## Sandboxie Setup
 Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it. 
@@ -103,7 +107,7 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 </details>
 
 
-- Important step! `Right click Account1 > Sandbox Preset > Emulate Admin Rights`. By setting this option, it will not ask for admin permission every time it launches!
+- <ins>Important step!</ins> `Right click Account1 > Sandbox Preset > Emulate Admin Rights`. By setting this option, it will not ask for admin permission every time it launches!
 <details>
 <summary>Image</summary>
 <img src="https://github.com/user-attachments/assets/dffd294d-a8f4-4cee-bcef-bc6d1d3c514c" width="500">
