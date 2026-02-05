@@ -1,9 +1,12 @@
 # Foxhole Multiboxing Guide
-This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey hotkeys that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
+This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey autoclickers that target each game account specifically and work while tabbed out. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 <details>
 <summary>Click for Preview Images</summary>
 <img src="https://github.com/user-attachments/assets/4f33720e-b04e-4939-a598-77a6b7911ef4" width="700">
+<img src="https://github.com/user-attachments/assets/4db34da5-9e39-45a8-88f7-f4b8e37d2d31" width="700">
 </details>
+
+
 
 # Contents
 [Preamble](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide?tab=readme-ov-file#preamble)
@@ -53,7 +56,8 @@ If you follow this guide, you will be able to:
 # Guide
 > [!IMPORTANT]
 > Read everything in this guide! There are many important tips that will ensure your setup works perfectly!
-> 
+
+
 ## Steam Setup
 1. On your main steam account, <ins>disable steam beta</ins>, so you don't have to update your sandboxes every day. Always make sure both Foxhole and steam are up to date. Any time Foxhole or Steam updates, you will have to reset your sandboxes - this is easy and will be explained later.
 
