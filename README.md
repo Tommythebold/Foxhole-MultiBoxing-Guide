@@ -121,7 +121,7 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 > The following steps might seem intimidating, but it's actually pretty simple! Doing this one-time setup will save you so much time overall.
 
 ## Batch Files
-1. Download the repository by clicking here. Click on the file you downloaded. You will see a folder named `Foxhole Multiboxing` - drag this folder onto the top level of your C: Drive. The batch files paths are setup assuming you put the folder here!
+1. Download the repository by clicking [here](https://github.com/Tommythebold/Foxhole-MultiBoxing-Guide/releases). Click on the file you downloaded. You will see a folder named `Foxhole Multiboxing` - drag this folder onto the top level of your C: Drive. The batch files paths are setup assuming you put the folder here!
 
 2. Open the Foxhole Multiboxing folder. The path should be `C:\Foxhole Multiboxing`. Then open the Sandboxie folder. `C:\Foxhole Multiboxing\Sandboxie`. You will see all the batch files here.
 
