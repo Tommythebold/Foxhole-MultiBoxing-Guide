@@ -61,7 +61,7 @@ If you follow this guide, you will be able to:
 
 ## Steam Setup
 
-If you are new to multiboxing Foxhole, I recommend only getting 1 new account at a time, to ensure you actually enjoy it. Remember that you can use the same email for as many steam accounts as you like - but you should use a seperate password for your alts. You can buy Foxhole on sale for $20, or cheaper in other countries. 
+If you are new to multiboxing Foxhole, I recommend only getting 1 new account at a time, to ensure you actually enjoy it. Remember that you can use the same email for as many steam accounts as you like - but you should use a seperate password for your alts. You can buy Foxhole on sale for $20, or cheaper in other countries. Click [here](https://store.steampowered.com/join/?) to make a new steam account.
 
 Once you have made your new steam account(s) and purchased Foxhole for them, proceed to the next steps. 
 
