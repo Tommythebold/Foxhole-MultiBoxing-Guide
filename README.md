@@ -61,6 +61,10 @@ If you follow this guide, you will be able to:
 
 ## Steam Setup
 
+If you are new to multiboxing Foxhole, I recommend only getting 1 new account at a time, to ensure you actually enjoy it. Remember that you can use the same email for as many steam accounts as you like - but you should use a seperate password for your alts. You can buy Foxhole on sale for $20, or cheaper in other countries. 
+
+Once you have made your new steam account(s) and purchased Foxhole for them, proceed to the next steps. 
+
 1. Tab into Steam. Click on `Username > Change accounts` on the top right of Steam, and login to your alt account. Your PC will remember certain steam and Foxhole settings per account, so they will always be correct, even when you delete your sandbox contents for updates. (Yes, you need to do this outside of Sandboxed steam).
 
 Once you are logged into your **_alt account_** on steam, 
