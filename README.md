@@ -32,7 +32,7 @@ This guide will help you setup a very powerful and easy to use multiboxing setup
 > I have built over years of playing. 
 
 ## Is this allowed?
-Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts.
+Multiboxing is allowed in Foxhole, so long as your alts are on the same team. Single action autoclickers are also allowed. Most logi vets use multiple accounts. You obviously can't input broadcast, and there is no reason to anyways.
 
 
 ## What you can do with this guide.
