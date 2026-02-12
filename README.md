@@ -211,7 +211,24 @@ The default hotkeys are:
 
 To change the keybindings and make your own keys, navigate to `"C:\Foxhole Multiboxing\AutoClickers"`, Find the file `Foxhole - OMB 1` and `Right Click > Edit in Notepad`. Follow the steps in the file.
 
-Let's quickly setup the batch file to launch all the autoclickers at once.
+If you have more than 2 accounts, follow the steps below to create more autoclicker files.
+1. Copy the file `C:\Foxhole Multiboxing\AutoClickers\Foxhole - OMB 1.ahk` and paste it in the same folder. Rename it to `Foxhole - OMB 3`.
+2. `Right Click > Edit in notepad` on the new OMB 3 file.
+3. Press `Ctrl + F`, and click the dropdown to the left of the search bar.
+4. In the top bar, type `OMB 1`. This is the text you are replacing.
+5. In the bottom bar, type `OMB 3`. This is what you are replacing `OMB 1` with.
+6. Click `Replace All`.
+7. Press `Ctrl + S`, or just save the file.
+
+<details>
+<summary>Click for Help Image</summary>
+<img src="https://github.com/user-attachments/assets/c253d0b7-29f7-49fc-8d67-2fc9e4e9e38d" width="800">
+</details>
+
+
+Repeat the steps above for however many accounts you have.
+
+Now let's quickly setup the batch file to launch all the autoclickers at once.
 
 1. In `C:\Foxhole Multiboxing\Sandboxie`, find `_Launch All Autoclickers` and `Right Click > Edit in Notepad`.
     - You will see
