@@ -245,17 +245,23 @@ Install and launch [OpenMultiBoxing](https://openmultiboxing.org/). This is the 
     - You can choose what monitors you use on the bottom left.
     
     - Play around with this tool. You will be able to modify your setups while your game is running, so let's move on.
-    
-2. Launch Foxhole on your main account if it isn't already open. When your are tabbed into Foxhole, press `Ctrl+Alt+Shift+C`, or whatever the keybind is on the `hk,capture` line under the edit settings button. This will capture the window, and save is as a Game on the top row of menus in OMB. You should see `OMB 1` in the large window below the `Capture` button, and the window will resize to your window layout you made.
+
+2. Click on the `Game` tab on the top of the window, and select `Add (capture window focused mode)`. This will allow OMB to detect other game windows when you follow the next step.
+
+3. Launch Foxhole on your main account if it isn't already open. When your are tabbed into Foxhole, press `Ctrl+Shift+C`, or whatever the keybind is on the `hk,capture` line under the edit settings button. This will capture the window, and save is as a Game on the top row of menus in OMB. You should see `OMB 1` in the large window below the `Capture` button, and the window will resize to your window layout you made.
     
     - Now let's launch your first alt account. Navigate to `C:\Foxhole Multiboxing\Sandboxie`, and run the `S1 - Launch Steam` file. If your steam and Foxhole are up to date on your main account, and you followed the steps above, it should launch steam in minimized mode - you can check if it launched by clicking the `Show hidden icons` button in the bottom right of your Windows taskbar. It should look like the Steam icon with a rectangle around it.
     - You can right click this icon and click Library if you need to see this accounts steam for some reason.
     - Now you can click the `F1 - Launch Foxhole` file. If it asks you to confirm the TOS/EULA, you didn't log into the accounts outside of Sandboxie as mentioned above. It will still work however.
-    - Once Foxhole has launched on your alt account, tab into it and again press `Ctrl+Alt+Shift+C` to capture the window. OMB will now recognize the Sandboxed version of Foxhole from now on, and you should see `OMB 2` in the list of windows in OMB.
+    - Once Foxhole has launched on your alt account, tab into it and again press `Ctrl+Shift+C` to capture the window. OMB will now recognize the Sandboxed version of Foxhole from now on, and you should see `OMB 2` in the list of windows in OMB.
     - If you launch more accounts, make sure on OMB under the Game tab on the top row, that `[#] War [#]` is selected. This is the Sandboxed version of Foxhole, while `War` is your main accounts Foxhole (not Sandboxed).
-3. Once you've launched your Foxhole games, play around with Window layout in OMB to get a layout you like. I myself initially used a 'Stack-All' layout, and used a keybind to switch between windows. However, I've found being able to see every window at once to be much easier in general. You can have one larger window and many smaller ones, and use hotkeys to switch them around. Try using the `Auto` button in the Window layout.
+4. Once you've launched your Foxhole games, play around with Window layout in OMB to get a layout you like. I myself initially used a 'Stack-All' layout, and used a keybind to switch between windows. However, I've found being able to see every window at once to be much easier in general. You can have one larger window and many smaller ones, and use hotkeys to switch them around. Try using the `Auto` button in the Window layout.
     - You should glance through the `Edit Settings` file. See what the keybinds are, in particular the `hk,swapNextWindow` hotkey. You can also set hotkeys to switch to specific windows below that. Be sure to click `Reload Settings` when you are done editing.
     - When you have settings you like, you should click `File > New Profile` to save your current settings to a profile. You can easily switch between profiles under the `Profile` tab to try out different layouts.
+
+5. From now on, every time you launch Foxhole, first select `War` under `Game` tab on OMB, launch your main account, and once OMB 1 is in the list, switch to `[#] War [#]`, and launch your alts one by one.
+
+6. Important! Every time you launch a Foxhole game, or once all of them are launched, you must tab into OpenMultiBoxer, and select your profile from the profile dropdown to resize all the game windows. They will not auto resize. If your game windows ever get out of position, just click the profile again. 
 
 
 # Troubleshooting
