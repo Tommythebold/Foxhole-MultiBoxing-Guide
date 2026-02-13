@@ -86,7 +86,7 @@ Once you are logged into your **_alt account_** on steam,
 </details>
 
 
-4. <ins>Important step!</ins> Launch Foxhole. You must do this on every alt outside of a Sandbox so your PC remembers these settings. Accept the EULA that pops up, choose the Able server (it defaults to Charlie), login. Click through the tutorials (it resets this), deploy somewhere and click through the tutorials again. Go to your settings, turn on sprint toggle and whatever other settings you want it to remember. When you are done, close the game. 
+4. <ins>Important step!</ins> Launch Foxhole. You must do this on every alt outside of a Sandbox so your PC remembers these settings. Accept the EULA that pops up, choose the Able server (it defaults to Charlie), login. Click through the tutorials (it resets this), deploy somewhere and click through the tutorials again. Go to your settings, turn on sprint toggle and set your `Graphics > Window Mode` to `Windowed Fullscreen`(or OMB won't work) and whatever other settings you want it to remember. I also recommend setting `FPS` to 60 or 30. When you are done, close the game. 
 
 
 5. Repeat the steps above for every alt account!
@@ -264,6 +264,8 @@ Install and launch [OpenMultiBoxing](https://openmultiboxing.org/). This is the 
     - Play around with this tool. You will be able to modify your setups while your game is running, so let's move on.
 
 2. Click on the `Game` tab on the top of the window, and select `Add (capture window focused mode)`. This will allow OMB to detect other game windows when you follow the next step.
+
+Important! Your games `Window Mode` setting needs to be `Windowed Fullscreen` as mentioned earlier, or else your window size will reset every time you load into a region!
 
 3. Launch Foxhole on your main account if it isn't already open. When your are tabbed into Foxhole, press `Ctrl+Shift+C`, or whatever the keybind is on the `hk,capture` line under the edit settings button. This will capture the window, and save it as a Game on the top row of menus in OMB. You should see `OMB 1` in the large window below the `Capture` button, and the window will resize to your window layout you made.
     
