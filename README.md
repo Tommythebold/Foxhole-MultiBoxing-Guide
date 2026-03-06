@@ -105,7 +105,7 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 </details>
 
 
-- Name it Account1 (or you will have to change it in the batch files), and choose Standard Sandbox. You can skip the next page and finish.
+2. Name it Account1 (or you will have to change it in the batch files), and choose Standard Sandbox. You can skip the next page and finish.
 <details>
 <summary>Image</summary>
 <img src="https://github.com/user-attachments/assets/b24dbd11-fe69-46b3-9cc8-86ea0486fdb9" width="500">
@@ -113,14 +113,19 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 </details>
 
 
-- <ins>Important step!</ins> `Right click Account1 > Sandbox Preset > Emulate Admin Rights`. By setting this option, it will not ask for admin permission every time it launches!
+3. <ins>Important step!</ins> `Right click Account1 > Sandbox Preset > Emulate Admin Rights`. By setting this option, it will not ask for admin permission every time it launches!
 <details>
 <summary>Image</summary>
 <img src="https://github.com/user-attachments/assets/dffd294d-a8f4-4cee-bcef-bc6d1d3c514c" width="500">
 </details>
 
+4. This step fixes an error occurring recently with a new windows update that causes Sandboxes to not launch. `Right Click` on your Sandbox, and click `Sandbox Options`. Then click on `Edit ini Section` at the bottom, and paste the following text at the bottom of the text section: `ClosedFilePath=|*\wdmaud2.drv`. Check the image below to see where to paste it. 
+<details>
+<summary>Image</summary>
+<img src="https://github.com/user-attachments/assets/fc119174-e986-4cdd-bb5d-e8e1e67c35cb" width="500">
+</details>
 
-- Repeat the following step for however many accounts you have. `Right click Account1 > Sandbox Tools > Duplicate Box Config`. Name it Account2, Account3, etc... (or whatever you want).
+5. Repeat the following step for however many accounts you have. `Right click Account1 > Sandbox Tools > Duplicate Box Config`. Name it Account2, Account3, etc... (or whatever you want).
 <details>
 <summary>Image</summary>
 <img src="https://github.com/user-attachments/assets/49090364-230b-4ec2-9ba7-d8be2ff9b6c3" width="500">
