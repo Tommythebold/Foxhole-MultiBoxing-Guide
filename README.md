@@ -119,7 +119,7 @@ Install [SandBoxie-Plus](https://sandboxie-plus.com/) and open it.
 <img src="https://github.com/user-attachments/assets/dffd294d-a8f4-4cee-bcef-bc6d1d3c514c" width="500">
 </details>
 
-4. This step fixes an error occurring recently with a new windows update that causes Sandboxes to not launch. `Right Click` on your Sandbox, and click `Sandbox Options`. Then click on `Edit ini Section` at the bottom, and paste the following text at the bottom of the text section: `ClosedFilePath=|*\wdmaud2.drv`. Check the image below to see where to paste it. 
+4. This step fixes an error occurring recently with a new windows update that causes Sandboxes to not launch. `Right Click` on your Sandbox, and click `Sandbox Options`. Then click on `Edit ini Section` at the bottom, and paste the following text at the bottom of the text section: `ClosedFilePath=|*\wdmaud2.drv`. Check the image below to see where to paste it. When done, click `Save` at the top right, and `Apply` on the bottom right. 
 <details>
 <summary>Image</summary>
 <img src="https://github.com/user-attachments/assets/fc119174-e986-4cdd-bb5d-e8e1e67c35cb" width="500">
