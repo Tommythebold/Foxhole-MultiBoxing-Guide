@@ -1,4 +1,7 @@
 # Foxhole Multiboxing Guide
+This guide is completely replaced and superceded by my new Foxhole Multiboxer program, which is currently in testing, but fully functional. Help test it [here](https://discord.com/channels/492127642544373770/1469961303367094283). (Posted 8/24/2026)
+
+
 This guide will help you setup a very powerful and easy to use multiboxing setup for Foxhole logistics, including managing many accounts with Sandboxie using batch files, controlling and moving your game windows using OpenMultiBoxer, and give you a set of AutoHotKey autoclickers that target each game account specifically and work while tabbed out - and even share keybinds. Never deal with sandboxes breaking, logging in to alts all the time, steam endlessly updating, autoclickers not working on alts, and more ever again.
 <details>
 <summary>Click for Preview Images</summary>
